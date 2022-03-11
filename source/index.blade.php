@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
-<div class="p-8">
-    <h1 class="text-3xl font-bold">Hello world!</h1>
+<div class="p-8 h-screen">
+    <h1>Sublime Blogs</h1>
 </div>
 @endsection
