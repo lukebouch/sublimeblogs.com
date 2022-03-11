@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
+    'title' => 'Sublime Blogs',
+    'description' => 'A headless CMS designed specifically for blogs.',
     'collections' => [],
 ];
