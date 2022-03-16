@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Poppins', 'sans-serif'],
+        'serif': ['Halant', 'serif'],
       },
       colors: {
         yellow: {

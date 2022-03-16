@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Halant:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap);
 /*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -22444,7 +22444,7 @@ video {
 }
 
 .font-serif{
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Halant, serif;
 }
 
 .font-mono{
@@ -32048,6 +32048,10 @@ video {
 
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+p {
+  font-family: Halant, serif;
 }
 
 h1,
@@ -53903,7 +53907,7 @@ small,
   }
 
   .sm\:font-serif{
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Halant, serif;
   }
 
   .sm\:font-mono{
@@ -85300,7 +85304,7 @@ small,
   }
 
   .md\:font-serif{
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Halant, serif;
   }
 
   .md\:font-mono{
@@ -116697,7 +116701,7 @@ small,
   }
 
   .lg\:font-serif{
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Halant, serif;
   }
 
   .lg\:font-mono{
@@ -148094,7 +148098,7 @@ small,
   }
 
   .xl\:font-serif{
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Halant, serif;
   }
 
   .xl\:font-mono{
@@ -179491,7 +179495,7 @@ small,
   }
 
   .\32xl\:font-serif{
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Halant, serif;
   }
 
   .\32xl\:font-mono{
