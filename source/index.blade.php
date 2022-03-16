@@ -6,7 +6,7 @@
     <div class="text-center">
         <img class="w-28 h-28 mx-auto mb-2" src="/assets/images/icon.png" alt="Sublime Blogs logo">
         <h1>Sublime Blogs</h1>
-        <p>A headless CMS designed specifically for blogs.</p>
+        <p class="text-lg">A headless CMS designed specifically for blogs.</p>
     </div>
 </div>
 @endsection
