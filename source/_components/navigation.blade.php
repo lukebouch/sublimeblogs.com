@@ -27,9 +27,9 @@
             </div>
             <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <div class="space-x-3">
-                    <a href="https://app.theprayerplatform.com/register" class="btn-primary">
+                    <a href="https://app.sublimeblogs.com/register" class="btn-primary">
                         Sign Up </a>
-                    <a href="https://app.theprayerplatform.com/" class="btn-secondary">
+                    <a href="https://app.sublimeblogs.com/login" class="btn-secondary">
                         Log In </a>
                 </div>
             </div>
