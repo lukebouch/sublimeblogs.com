@@ -9,10 +9,6 @@
 }
 
 @layer base {
-p {
-    @apply font-serif;
-}
-
 h1,
 h2,
 h3,
