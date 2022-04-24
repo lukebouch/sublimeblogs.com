@@ -8,10 +8,14 @@
     <meta name="description" content="{{ $page->description }}">
     <title>{{ $page->title }}</title>
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+
+    <script src="//unpkg.com/alpinejs" defer></script>
+
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
 
 <body class="text-gray-900 font-sans antialiased">
+    <x-navigation />
     @yield('body')
 </body>
 
