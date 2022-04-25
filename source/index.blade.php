@@ -35,8 +35,9 @@
                             <span class="block text-primary-600">just for you simple blog.</span>
                         </h1>
                         <p class="mt-3 max-w-md mx-auto text-base text-gray-500 md:mt-5 md:text-lg md:max-w-3xl">
-                            Build out your site in the front-end of your choice and then hook it up to our api. Deploy it
-                            statically and have the peace of mind know your site can handle any traffic being thrown at it.
+                            Pick your front-end, connect it to our api, and then deploy your site statically with ease. All
+                            without
+                            the complexity of a cluncky, bloated, CMS.
                         </p>
                     </div>
                 </div>
