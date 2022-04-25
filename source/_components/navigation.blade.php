@@ -69,9 +69,9 @@
             </div>
             <div class="px-3 pt-2 pb-3 space-y-1">
                 {{-- Mobile navigation links --}}
-                <a href="https://app.theprayerplatform.com/register" class="btn-primary block text-center">
+                <a href="https://app.sublimeblogs.com/register" class="btn-primary block text-center">
                     Sign Up </a>
-                <a href="https://app.theprayerplatform.com/" class="btn-secondary block text-center">
+                <a href="https://app.sublimeblogs.com/" class="btn-secondary block text-center">
                     Log In </a>
             </div>
         </div>
