@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
-    <div class="bg-gray-50">
+    <section class="bg-gray-50">
         <div class="relative overflow-hidden">
             <div class="absolute inset-y-0 h-full w-full" aria-hidden="true">
                 <div class="relative h-full">
@@ -54,5 +54,24 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="text-white bg-gray-800">
+        <!-- This example requires Tailwind CSS v2.0+ -->
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-extrabold">Simplicity at the Core</h2>
+                <p class="mt-4 text-lg"></p>
+            </div>
+            <dl
+                class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
+
+                <x-feature title="Markdown Support">
+                    The editor fully supports markdown.
+                </x-feature>
+
+            </dl>
+        </div>
+
+    </section>
 @endsection
