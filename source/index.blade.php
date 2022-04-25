@@ -31,8 +31,8 @@
                 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
                     <div class="text-center">
                         <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
-                            <span class="block">Don't spin up a whole server</span>
-                            <span class="block text-primary-600">just for you blog.</span>
+                            <span class="block">Don't spin up an entire CMS</span>
+                            <span class="block text-primary-600">just for you simple blog.</span>
                         </h1>
                         <p class="mt-3 max-w-md mx-auto text-base text-gray-500 md:mt-5 md:text-lg md:max-w-3xl">
                             Build out your site in the front-end of your choice and then hook it up to our api. Deploy it
