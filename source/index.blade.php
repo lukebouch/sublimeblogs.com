@@ -56,7 +56,7 @@
         </div>
     </section>
 
-    <section class="text-white bg-gray-800">
+    {{-- <section class="text-white bg-gray-800">
         <!-- This example requires Tailwind CSS v2.0+ -->
         <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
             <div class="max-w-3xl mx-auto text-center">
@@ -73,5 +73,5 @@
             </dl>
         </div>
 
-    </section>
+    </section> --}}
 @endsection
