@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
-    <div class="bg-gray-50">
+    <section class="bg-gray-50">
         <div class="relative overflow-hidden">
             <div class="absolute inset-y-0 h-full w-full" aria-hidden="true">
                 <div class="relative h-full">
@@ -31,12 +31,13 @@
                 <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
                     <div class="text-center">
                         <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
-                            <span class="block">Don't spin up a whole server</span>
-                            <span class="block text-primary-600">just for you blog.</span>
+                            <span class="block">Don't spin up an entire CMS</span>
+                            <span class="block text-primary-600">just for you simple blog.</span>
                         </h1>
                         <p class="mt-3 max-w-md mx-auto text-base text-gray-500 md:mt-5 md:text-lg md:max-w-3xl">
-                            Build out your site in the front-end of your choice and then hook it up to our api. Deploy it
-                            statically and have the peace of mind know your site can handle any traffic being thrown at it.
+                            Pick your front-end, connect it to our api, and then deploy your site statically with ease. All
+                            without
+                            the complexity of a cluncky, bloated, CMS.
                         </p>
                     </div>
                 </div>
@@ -53,5 +54,24 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    {{-- <section class="text-white bg-gray-800">
+        <!-- This example requires Tailwind CSS v2.0+ -->
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-extrabold">Simplicity at the Core</h2>
+                <p class="mt-4 text-lg"></p>
+            </div>
+            <dl
+                class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
+
+                <x-feature title="Markdown Support">
+                    The editor fully supports markdown.
+                </x-feature>
+
+            </dl>
+        </div>
+
+    </section> --}}
 @endsection
