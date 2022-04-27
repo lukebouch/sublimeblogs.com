@@ -101,7 +101,7 @@
                                 </span>
                             </div>
                             <div class="mt-6">
-                                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">Access all your post
+                                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">Access all your posts
                                     through the API</h2>
                                 <p class="mt-4 text-lg text-gray-500">At build time, your static site generator can access
                                     all of your posts through the JSON API.</p>
