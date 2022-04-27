@@ -31,6 +31,8 @@
                         Sign Up </a>
                     <a href="https://app.sublimeblogs.com/login" class="btn-secondary">
                         Log In </a> --}}
+                    <a href="#notify-me" class="btn-primary">
+                        Notify Me </a>
                 </div>
             </div>
         </nav>
@@ -73,6 +75,8 @@
                     Sign Up </a>
                 <a href="https://app.sublimeblogs.com/" class="btn-secondary block text-center">
                     Log In </a> --}}
+                <a href="#notify-me" class="btn-primary">
+                    Notify Me </a>
             </div>
         </div>
     </div>
