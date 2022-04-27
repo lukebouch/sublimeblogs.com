@@ -27,10 +27,10 @@
             </div>
             <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <div class="space-x-3">
-                    <a href="https://app.sublimeblogs.com/register" class="btn-primary">
+                    {{-- <a href="https://app.sublimeblogs.com/register" class="btn-primary">
                         Sign Up </a>
                     <a href="https://app.sublimeblogs.com/login" class="btn-secondary">
-                        Log In </a>
+                        Log In </a> --}}
                 </div>
             </div>
         </nav>
@@ -69,10 +69,10 @@
             </div>
             <div class="px-3 pt-2 pb-3 space-y-1">
                 {{-- Mobile navigation links --}}
-                <a href="https://app.sublimeblogs.com/register" class="btn-primary block text-center">
+                {{-- <a href="https://app.sublimeblogs.com/register" class="btn-primary block text-center">
                     Sign Up </a>
                 <a href="https://app.sublimeblogs.com/" class="btn-secondary block text-center">
-                    Log In </a>
+                    Log In </a> --}}
             </div>
         </div>
     </div>
