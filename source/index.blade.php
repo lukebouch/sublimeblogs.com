@@ -74,22 +74,6 @@
 
     </section> --}}
 
-    <!--
-                                                                                                      This example requires Tailwind CSS v2.0+
-                                                                                                      
-                                                                                                      This example requires some changes to your config:
-                                                                                                      
-                                                                                                      ```
-                                                                                                      // tailwind.config.js
-                                                                                                      module.exports = {
-                                                                                                        // ...
-                                                                                                        plugins: [
-                                                                                                          // ...
-                                                                                                          require('@tailwindcss/forms'),
-                                                                                                        ],
-                                                                                                      }
-                                                                                                      ```
-                                                                                                    -->
     <div class="bg-white py-16 sm:py-24">
         <div class="relative sm:py-16">
             <div aria-hidden="true" class="hidden sm:block">
@@ -125,7 +109,7 @@
                         <form action="{{ $page['apiUrl'] }}/newsletter/contact/add" method="POST"
                             class="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
                             <input name="redirect_url" type="text"
-                                value="{{ $page['production'] ? 'https://sublimeblogs.com' : 'http://localhost:3000' }}"
+                                value="{{ $page['production']? 'https://sublimeblogs.com/newsletter/confirmed': 'http://localhost:3000/newsletter/confirmed' }}"
                                 hidden>
                             <div class="min-w-0 flex-1">
                                 <label for="email" class="sr-only">Email address</label>
