@@ -35,9 +35,8 @@
                             <span class="block text-primary-600">just for a simple blog.</span>
                         </h1>
                         <p class="mt-3 max-w-md mx-auto text-base text-gray-500 md:mt-5 md:text-lg md:max-w-3xl">
-                            Pick your front-end, connect it to our api, and then deploy your site statically with ease. All
-                            without
-                            the complexity of a cluncky, bloated, CMS.
+                            Sublime Blogs is the easier way to add a blog to your static site. No need to work with an old,
+                            clunky CMS like Wordpress. Use your frontend of choice and deploy to the Jamstack with ease.
                         </p>
                     </div>
                 </div>
