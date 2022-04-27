@@ -55,24 +55,32 @@
         </div>
     </section>
 
-    {{-- <section class="text-white bg-gray-800">
-        <!-- This example requires Tailwind CSS v2.0+ -->
+    <section class="text-white bg-gray-800">
         <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
             <div class="max-w-3xl mx-auto text-center">
                 <h2 class="text-3xl font-extrabold">Simplicity at the Core</h2>
                 <p class="mt-4 text-lg"></p>
             </div>
-            <dl
-                class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
-
+            <dl class="mt-12 gap-6 gap-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 lg:grid-cols-4">
                 <x-feature title="Markdown Support">
                     The editor fully supports markdown.
                 </x-feature>
 
+                <x-feature title="Fast to Setup">
+                    It only takes a few minutes to setup.
+                </x-feature>
+
+                <x-feature title="Drag-n-Drop Uploading">
+                    Drop an image in the editor to have it uploaded and added ask markdown automatically.
+                </x-feature>
+
+                <x-feature title="Webhooks">
+                    Trigger a build of you site every time you create a new post.
+                </x-feature>
             </dl>
         </div>
 
-    </section> --}}
+    </section>
 
     <x-pricing />
 
