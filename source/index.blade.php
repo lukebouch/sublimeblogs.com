@@ -82,6 +82,48 @@
 
     </section>
 
+    <section class="mt-10">
+        <div class="relative bg-white pt-16 pb-32 overflow-hidden">
+            <div class="relative">
+                <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+                    <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+                        <div>
+                            <div>
+                                <span
+                                    class="h-12 w-12 rounded-md flex items-center justify-center bg-primary-600 text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="mt-6">
+                                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">Access all your post
+                                    through the API</h2>
+                                <p class="mt-4 text-lg text-gray-500">At build time, your static site generator can access
+                                    all of your posts through the JSON API.</p>
+                                <div class="mt-6">
+                                    <a href="#notify-me" class="btn-primary">
+                                        Notify Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                        <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                                src="/assets/images/api-json-response.png" alt="Json response of the posts api">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <x-pricing />
 
     <section class="py-16 sm:py-24" id="notify-me">
