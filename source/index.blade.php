@@ -74,6 +74,8 @@
 
     </section> --}}
 
+    <x-pricing />
+
     <section class="py-16 sm:py-24">
         <div class="relative sm:py-16">
             <div aria-hidden="true" class="hidden sm:block">
