@@ -8,6 +8,10 @@
     display: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @layer base {
 h1,
 h2,
