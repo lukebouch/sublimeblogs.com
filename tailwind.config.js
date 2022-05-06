@@ -1,9 +1,8 @@
 module.exports = {
-  purge: [
-    'source/**/*.blade.php',
-    'source/**/*.md',
-    'source/**/*.html',
-  ],
+  content: require('fast-glob').sync([
+    'source/**/*.{blade.php,md,html,vue}',
+    '!source/**/_tmp/*' // exclude temporary files
+  ], { dot: true }),
   theme: {
     extend: {
       fontFamily: {
@@ -43,9 +42,6 @@ module.exports = {
         "7xl": "7.998rem",
       },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };
