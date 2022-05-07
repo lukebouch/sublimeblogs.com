@@ -156,7 +156,7 @@
                             <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Get notified when
                                 we&rsquo;re launching.</h2>
                             <p class="mt-6 mx-auto max-w-2xl text-lg">We are not quite ready yet. We are still working on
-                                making this the best headless CMS.</p>
+                                making this the best headless CMS for developers and bloggers.</p>
                         </div>
                         <form action="{{ $page['apiUrl'] }}/newsletter/contact/add" method="POST"
                             class="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
