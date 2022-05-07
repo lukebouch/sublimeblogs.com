@@ -6,5 +6,9 @@ return [
     'apiUrl' => 'https://api.sublime-blogs.test',
     'title' => 'Sublime Blogs',
     'description' => 'A headless CMS designed specifically for blogs.',
-    'collections' => [],
+    'collections' => [
+        'docs' => [
+            'extends' => '_layouts.doc',
+        ]
+    ],
 ];
