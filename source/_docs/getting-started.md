@@ -30,3 +30,11 @@ In order to access the API in your static site generator, you will need to creat
 Note: For security reasons, this token will only be show this one time. If you loose it, you will need to revoke it and create a new one.
 
 ![Access token created](/assets/images/documentation/access-token-created.png)
+
+## Access API
+To access all of your posts, send a GET request to `https://api.sublimeblogs.com/posts`. You will need to pass the access token you just created as a bearer token in the request.
+
+![Call posts api](/assets/images/documentation/call-posts-api.png)
+
+## Render you posts
+It's up to you how you generate you site. Choose whatever static site generator you want and just retrieve your posts from the API. That's the beauty of Sublime Blogs! 
