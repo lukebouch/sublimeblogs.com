@@ -3,7 +3,7 @@
         <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
             <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div class="flex items-center justify-between w-full md:w-auto">
-                    <a href="#" class="flex items-center gap-1">
+                    <a href="/" class="flex items-center gap-1">
                         <img class="w-auto h-12 sm:h-14" src="/assets/images/icon.png" alt="Sublime Blogs icon">
                         <span class="text-lg font-bold sm:text-xl">Sublime Blogs</span>
                     </a>
