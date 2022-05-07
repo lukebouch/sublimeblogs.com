@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
-    <section class="container py-10 prose">
+    <section class="py-10 prose container-sm">
         @yield('content')
     </section>
 @endsection
