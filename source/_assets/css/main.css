@@ -51,17 +51,18 @@ small,
     font-size: 0.75rem;
 }
     
-.btn-primary {
-    @apply inline-flex items-center px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500;
-}
-.btn-secondary {
-    @apply inline-flex items-center px-4 py-2 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500;
-}
 
 .container {
     @apply px-4 py-6 sm:px-6;
 }
 
+}
+
+.btn-primary {
+    @apply inline-flex items-center px-4 py-2 text-base font-medium text-white no-underline border border-transparent rounded-md shadow-sm bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500;
+}
+.btn-secondary {
+    @apply inline-flex items-center px-4 py-2 text-base font-medium text-gray-700 no-underline bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500;
 }
 
 .container {
