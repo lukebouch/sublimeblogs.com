@@ -680,6 +680,14 @@ h5 {
   margin-bottom: 2rem;
 }.mt-8{
   margin-top: 2rem;
+}.mr-10{
+  margin-right: 2.5rem;
+}.mr-20{
+  margin-right: 5rem;
+}.mr-48{
+  margin-right: 12rem;
+}.mr-40{
+  margin-right: 10rem;
 }.block{
   display: block;
 }.flex{
@@ -724,6 +732,8 @@ h5 {
   max-width: max-content;
 }.flex-1{
   flex: 1 1 0%;
+}.flex-auto{
+  flex: 1 1 auto;
 }.origin-top-right{
   transform-origin: top right;
 }.translate-y-1\/3{
@@ -752,6 +762,8 @@ h5 {
   flex-direction: column;
 }.items-center{
   align-items: center;
+}.justify-end{
+  justify-content: flex-end;
 }.justify-center{
   justify-content: center;
 }.justify-between{
