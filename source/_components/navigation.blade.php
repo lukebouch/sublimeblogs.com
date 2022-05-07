@@ -24,8 +24,7 @@
             </div>
             <div class="justify-end flex-auto hidden mr-40 md:flex md:space-x-10">
                 {{-- Desktop navigation links --}}
-                <x-navigation.desktop-link href="/">Home</x-navigation.desktop-link>
-                <x-navigation.desktop-link href="/docs/getting-started">Getting Started</x-navigation.desktop-link>
+                @include('_components.navigation.desktop-links')
             </div>
             <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <div class="space-x-3">
@@ -73,14 +72,7 @@
             </div>
             <div class="px-3 pt-2 pb-3 space-y-1">
                 {{-- Mobile navigation links --}}
-                <x-navigation.mobile-link href="/">Home</x-navigation.mobile-link>
-                <x-navigation.mobile-link href="/getting-started">Getting Started</x-navigation.mobile-link>
-                {{-- <a href="https://app.sublimeblogs.com/register" class="block text-center btn-primary">
-                    Sign Up </a>
-                <a href="https://app.sublimeblogs.com/" class="block text-center btn-secondary">
-                    Log In </a> --}}
-                <a href="#notify-me" class="btn-primary">
-                    Notify Me </a>
+                @include('_components.navigation.mobile-links')
             </div>
         </div>
     </div>

@@ -14,8 +14,8 @@
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
 
-<body class="text-gray-900 font-sans antialiased">
-    <x-navigation />
+<body class="font-sans antialiased text-gray-900">
+    @include('_components.navigation')
     @yield('body')
 </body>
 

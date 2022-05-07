@@ -672,6 +672,10 @@ h5 {
   margin-top: 0.5rem;
 }.-mr-2{
   margin-right: -0.5rem;
+}.mr-40{
+  margin-right: 10rem;
+}.-mt-1{
+  margin-top: -0.25rem;
 }.mt-5{
   margin-top: 1.25rem;
 }.mt-1{
@@ -680,16 +684,6 @@ h5 {
   margin-bottom: 2rem;
 }.mt-8{
   margin-top: 2rem;
-}.mr-10{
-  margin-right: 2.5rem;
-}.mr-20{
-  margin-right: 5rem;
-}.mr-48{
-  margin-right: 12rem;
-}.mr-40{
-  margin-right: 10rem;
-}.-mt-1{
-  margin-top: -0.25rem;
 }.block{
   display: block;
 }.inline-block{
@@ -706,10 +700,6 @@ h5 {
   height: 3rem;
 }.h-6{
   height: 1.5rem;
-}.h-8{
-  height: 2rem;
-}.h-10{
-  height: 2.5rem;
 }.w-full{
   width: 100%;
 }.w-12{

@@ -11,4 +11,7 @@ return [
             'extends' => '_layouts.doc',
         ]
     ],
+    'isActive' => function ($page, $path) {
+        return Illuminate\Support\Str::endsWith(trimPath($page->getPath()), trimPath($path)) || $page->getUrl() == $path;
+    },
 ];
