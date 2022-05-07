@@ -688,8 +688,12 @@ h5 {
   margin-right: 12rem;
 }.mr-40{
   margin-right: 10rem;
+}.-mt-1{
+  margin-top: -0.25rem;
 }.block{
   display: block;
+}.inline-block{
+  display: inline-block;
 }.flex{
   display: flex;
 }.inline-flex{
@@ -704,6 +708,8 @@ h5 {
   height: 1.5rem;
 }.h-8{
   height: 2rem;
+}.h-10{
+  height: 2.5rem;
 }.w-full{
   width: 100%;
 }.w-12{

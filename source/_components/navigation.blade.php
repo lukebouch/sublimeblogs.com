@@ -4,7 +4,7 @@
             <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div class="flex items-center justify-between w-full md:w-auto">
                     <a href="#" class="flex items-center gap-1">
-                        <img class="w-auto h-12 sm:h-14" src="/assets/images/icon.png" alt="">
+                        <img class="w-auto h-12 sm:h-14" src="/assets/images/icon.png" alt="Sublime Blogs icon">
                         <span class="text-lg font-bold sm:text-xl">Sublime Blogs</span>
                     </a>
                     <div class="flex items-center -mr-2 md:hidden">
@@ -55,8 +55,8 @@
         <div class="overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-black ring-opacity-5">
             <div class="flex items-center justify-between px-5 pt-4">
                 <div>
-                    <img class="w-auto h-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                        alt="">
+                    <img class="inline-block w-auto h-12 -mt-1" src="/assets/images/icon.png" alt="Sublime Blogs icon">
+                    <span class="text-lg font-bold sm:text-xl">Sublime Blogs</span>
                 </div>
                 <div class="-mr-2">
                     <button @click="open = false" type="button"
