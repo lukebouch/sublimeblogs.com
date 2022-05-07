@@ -17,6 +17,8 @@
 <body class="font-sans antialiased text-gray-900">
     @include('_components.navigation')
     @yield('body')
+
+    <x-footer />
 </body>
 
 </html>
