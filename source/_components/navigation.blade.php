@@ -22,18 +22,16 @@
                     </div>
                 </div>
             </div>
-            <div class="justify-end flex-auto hidden mr-40 md:flex md:space-x-10">
+            <div class="justify-end flex-auto hidden mr-60 md:flex md:space-x-10">
                 {{-- Desktop navigation links --}}
                 @include('_components.navigation.desktop-links')
             </div>
             <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <div class="space-x-3">
-                    {{-- <a href="https://app.sublimeblogs.com/register" class="btn-primary">
+                    <a href="https://app.sublimeblogs.com/register" class="btn-primary">
                         Sign Up </a>
                     <a href="https://app.sublimeblogs.com/login" class="btn-secondary">
-                        Log In </a> --}}
-                    <a href="#notify-me" class="btn-primary">
-                        Notify Me </a>
+                        Log In </a>
                 </div>
             </div>
         </nav>
